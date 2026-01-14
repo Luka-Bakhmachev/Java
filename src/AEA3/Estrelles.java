@@ -1,13 +1,17 @@
+import java.util.Scanner;
 public class Estrelles {
     public static void main(String[] args) {
-        charprint('*', 5);
-        charprint('#', 3);
-        charprint('A', 4);  
+        Scanner s= new Scanner(System.in);
+        char sym = s.next().charAt(0);
+        int row = s.nextInt();
+        charprint(sym, row);
     }
     public static void charprint (char symbol, int rows) {
-        String completeLine = String.valueOf(symbol).repeat(rows);
-        System.out.println(completeLine);
-        
+        for (int i = 0; i < rows; i++) {
+            System.out.print(symbol);
+        }
+        //String completeLine = String.valueOf(symbol).repeat(rows);
+        //System.out.println(completeLine);
     }
 }
 

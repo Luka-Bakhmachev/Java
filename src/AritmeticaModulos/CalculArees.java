@@ -1,19 +1,25 @@
-
+package AritmeticaModulos;
 //importem la biblioteca Scanner per a poder recolir dades de la temrinal
 import java.util.Scanner;
 
 public class CalculArees {
     private static double area = 0;
     public static void main (String args[]){
+    CalculArees programa = new CalculArees();
+    programa.inici();
+    }
+
+    
+    public  void inici() {
     Scanner s = new Scanner(System.in);
+
 
     System.out.println("De quina figura vols calcular l'area?\n");
     System.out.println("Tens les següents opcions: triangle, quadrat, rectangle, trapezi, rombe, paralelogram o cercle.\n");
 
     String figura = s.nextLine();
-
     switch(figura){
-        case "triangle" -> triangle();
+        case "triangle" -> Aritmetica.triangle();
         case "quadrat" -> quadrat();
         case "rectangle" -> rectangle();
         case "trapezi" -> trapezi();
@@ -25,14 +31,11 @@ public class CalculArees {
         }
     }
     System.out.println("L'area de la figura " + figura + " és: " + area);
-
-
-  }
-    public static void triangle(){
-        double b = 23.0;
-        double h = 8.0;
-        area = (b*h)/2;
     }
+
+
+  
+    
     public static void quadrat(){
         double r = 37.0;
         area = Math.pow(r, 2);

@@ -7,6 +7,22 @@ public class Persona { //objeto
     private String nom;
     private short edat;
 
+    public Persona(Object object, Object object2, Object object3) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public Persona(Object object, Object object2, Object object3) {
+        //TODO Auto-generated constructor stub
+    }
+
+    Persona(String b, String bob, int i) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public Persona() {
+        //TODO Auto-generated constructor stub
+    }
+
     // Retorna: 0 si s’ha pogut canviar el dni
     // 1 si el nou dni no és correcte − No s’efectua el canvi
     public int setDni(String nouDni) {

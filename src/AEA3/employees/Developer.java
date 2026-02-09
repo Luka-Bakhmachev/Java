@@ -1,8 +1,8 @@
-package AEA3.employees;
+package employees;
 
 public  class Developer extends Employee {
-    private String lenguajeProgramacion = "";
-    
-    
+    public Developer(String nombre, String direccion, double salario) {
+        super(nombre, direccion, salario, "Developer");
+    }
     
 }

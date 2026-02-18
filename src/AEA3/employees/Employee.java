@@ -12,4 +12,7 @@ public class Employee {
         this.salario = salario;
         this.puestoTrabajo = puestoTrabajo;
     }
+    public double calcularBonus() {
+        return salario * 0.1;
+    }
 }

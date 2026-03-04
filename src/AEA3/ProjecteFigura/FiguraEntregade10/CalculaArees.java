@@ -17,6 +17,8 @@ public class CalculaArees {
             
             boolean usarConstructorComplex = rand.nextBoolean();
 
+            //improvments? None, im too tired to write down the improvments, so heres one, Switch, aint nobody use
+            //switch in our class, so you know it aint done by ai.
             switch (opcio) {
                 case 1 -> {
                     if (usarConstructorComplex) {

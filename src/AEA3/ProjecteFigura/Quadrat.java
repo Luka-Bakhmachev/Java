@@ -1,4 +1,4 @@
-package AEA3.ProjecteFigura;
+package ProjecteFigura;
 
 public class Quadrat extends Figura {
     private int costat;

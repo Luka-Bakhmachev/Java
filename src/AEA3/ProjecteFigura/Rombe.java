@@ -1,4 +1,4 @@
-package AEA3.ProjecteFigura;
+package ProjecteFigura;
 
 public class Rombe extends Figura {
     private int dM;

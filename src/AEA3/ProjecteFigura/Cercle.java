@@ -1,4 +1,4 @@
-package AEA3.ProjecteFigura;
+package ProjecteFigura;
 
 public class Cercle extends Figura {
     private int radi;

@@ -1,4 +1,4 @@
-package AEA3.ProjecteFigura;
+package ProjecteFigura;
 
 public class Parallelogram extends Figura {
     private int b;

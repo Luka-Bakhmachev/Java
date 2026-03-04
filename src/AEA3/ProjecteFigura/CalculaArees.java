@@ -1,4 +1,4 @@
-package ProjecteFigura;
+package AEA3.ProjecteFigura;
 
 public class CalculaArees {
     public static void main(String[] args) {

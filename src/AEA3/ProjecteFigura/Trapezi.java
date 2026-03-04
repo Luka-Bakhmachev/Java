@@ -1,4 +1,4 @@
-package ProjecteFigura;
+package AEA3.ProjecteFigura;
 
 public class Trapezi extends Figura {
     private int a;

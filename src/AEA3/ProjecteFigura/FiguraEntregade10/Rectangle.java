@@ -1,4 +1,4 @@
-package FiguraEntregaDe10;
+package FiguraEntregade10;
 
 public class Rectangle extends Figura {
     private int costat1;

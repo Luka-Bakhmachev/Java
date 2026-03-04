@@ -18,5 +18,6 @@ public class Cercle extends Figura {
     @Override
     public double calcularArea() {
         return Math.PI * radi * radi;
+        //again, Math.PI. Does anyone go around googling for the value of pi as a function? Idk but i did
     }
 }

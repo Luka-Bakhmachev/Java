@@ -1,5 +1,5 @@
 package sistemadereservas;
 
-public class Allojament {
+public class Main {
     
 }
